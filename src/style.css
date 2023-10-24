@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 0, 44);
+    color: white;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 5px 10px;
+}
+.form{
+    margin: 10px;
+}
+input{
+    width: 250px;
+    height: 1.75em;
+    margin-right: 1em;
+    border-radius: 5%;
+    border: 1px solid black;
+    outline: none;
+}
+.title{
+    animation: titleAnimation 1s;
+}
+
+@keyframes titleAnimation {
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
